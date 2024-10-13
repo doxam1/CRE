@@ -323,14 +323,14 @@ ul li {
 
       & > *:nth-child(1) {
         flex: 2;
-        max-width: 400px;
+        // max-width: 400px;
         text-align: center;
-        font-size: calc(.5rem + 1vw);
+        font-size: calc(.5rem + .6vw);
       }
 
       & > *:not(:nth-child(1)) {
         flex: 1;
-        font-size: calc(.5rem + 1vw);
+        font-size: calc(.5rem + .5vw);
       }
     }
   }
